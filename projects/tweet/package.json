@@ -1,0 +1,24 @@
+{
+  "name": "ngx-ice-tweet",
+  "description": "tweeter component to show tweets by a hashtag given, it can be order by text, date, or user name",
+  "version": "0.0.1",
+  "keywords": [
+    "tweeter",
+    "tweets",
+    "jose luis quevedo",
+    "angular",
+    "library",
+    "OIGA",
+    "hashtag",
+    "web component",
+    "colombia",
+    "venezuela"
+  ],
+  "author": "Jose Luis Quevedo Casanova",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^7.0.0",
+    "@angular/core": "^7.0.0",
+    "@angular/material": "^7.1.0"
+  }
+}
