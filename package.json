@@ -26,7 +26,8 @@
     "prestart": "npm install",
     "build-lib": "ng build ngx-ice-tweet",
     "npm-pack": "cd dist/tweet && npm pack",
-    "package": "npm run build-lib && npm run npm-pack"
+    "package": "npm run build-lib && npm run npm-pack",
+    "deploy": "npm run package && cd dist/tweet && npm publish --access public"
   },
   "private": false,
   "dependencies": {
